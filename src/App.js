@@ -1,6 +1,6 @@
 import React from 'react';
-import Button from './Button.js';
-import logo from './logo.svg';
+import Header from './Header.js';
+import Home from './Home.js';
 import getParameterByName from './getParameterByName.js';
 import './App.css';
 
@@ -8,16 +8,8 @@ function App() {
   console.log(getParameterByName("x"));
   return (
     <div className="App">
-      <div className="Header">
-        <Button name="Music" />
-        <Button name="Blog" />
-      </div>
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="react" />
-        <p>
-          Anarchy's Rainbow
-        </p>
-      </header>
+      <Header className="Header" />
+      <Home />
     </div>
   );
 }
