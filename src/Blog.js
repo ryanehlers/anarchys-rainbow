@@ -14,8 +14,8 @@ class Blog extends Component {
   render() {
     return (
       <div style={{textAlign: "center"}}>
-        <BlogButton name="lgUnplugged" press={this.press} />
-        <BlogButton name="lgUnplugged" press={this.press} />
+        <BlogButton name="lg-Unplugged" press={this.press} />
+        <BlogButton name="lg-Unplugged" press={this.press} />
       </div>
     );
   }

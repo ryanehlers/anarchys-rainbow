@@ -1,7 +1,7 @@
 function buttonToPageMap(button) {
   switch (button) {
     default:
-      return button;
+      return button.toLowerCase();
   }
 }
 

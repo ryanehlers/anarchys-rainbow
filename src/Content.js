@@ -23,14 +23,14 @@ class Content extends Component {
           </div>
         );
 
-      case 'Blog':
+      case 'blog':
         return (
           <div className="Blog">
             <Blog press={this.press} />
           </div>
         );
 
-      case 'lgUnplugged':
+      case 'lg-unplugged':
         return (
           <div className="BlogPost">
             <LGUnplugged press={this.press} />
