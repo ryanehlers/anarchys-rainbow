@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Button from './Button.js';
+import './App.css'
 
 class Header extends Component {
   constructor(props) {
@@ -13,7 +14,7 @@ class Header extends Component {
 
   render() {
     return (
-      <header>
+      <header className="Header">
         <div className="HeaderButtons">
           <Button name="Music" press={this.press} />
           <Button name="Blog" press={this.press} />

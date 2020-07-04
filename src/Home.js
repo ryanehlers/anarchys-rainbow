@@ -4,7 +4,7 @@ import logo from './logo.svg';
 class Home extends Component {
   render() {
     return (
-      <div className="App-header">
+      <div>
         <img src={logo} className="App-logo" alt="react" />
         <p>
           Anarchy's Rainbow
