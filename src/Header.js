@@ -15,10 +15,10 @@ class Header extends Component {
   render() {
     return (
       <header className="Header">
-        <div className="HeaderButtons">
+        <nav className="HeaderButtons">
           <Button name="Music" press={this.press} />
           <Button name="Blog" press={this.press} />
-        </div>
+        </nav>
         <hr />
       </header>
     );

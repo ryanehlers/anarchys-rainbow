@@ -13,13 +13,13 @@
 
 .Home {
   margin: 5px;
-  font-size: 18px;
+  font-size: 20px;
   color: white;
 }
 
 .Blog {
   margin: 20px;
-  font-size: 18px;
+  font-size: 20px;
   color: white;
   text-align: left;
   text-indent: 30px;
@@ -28,6 +28,14 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+img {
+  max-width: 60%;
+}
+
+p {
+  font-family: Helvetica, "Trebuchet MS", Verdana, sans-serif;
 }
 
 @media (prefers-reduced-motion: no-preference) {
