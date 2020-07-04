@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Header from './Header.js';
 import Content from './Content.js';
 import getParameterByName from './getParameterByName.js';
+import buttonToPageMap from './buttonToPageMap.js';
 import './App.css';
 
 class App extends Component {
@@ -14,7 +15,7 @@ class App extends Component {
   press(button) {
     console.log(button);
     this.setState({
-      page: button
+      page: buttonToPageMap(button)
     });
   }
 
@@ -22,7 +23,7 @@ class App extends Component {
     return (
       <div className="App">
         <Header press={this.press} />
-        <Content page={this.state.page} />
+        <Content press={this.press} page={this.state.page} />
       </div>
     );
   }
