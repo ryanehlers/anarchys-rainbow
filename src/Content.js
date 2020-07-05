@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Home from './Home.js';
 import Blog from './Blog.js';
+import Music from './Music.js';
 import LGUnplugged from './BlogPosts/Liam-Gallagher-Unplugged-Review.js'
 import './App.css'
 
@@ -23,12 +24,19 @@ class Content extends Component {
           </div>
         );
 
-      case 'blog':
+      case 'music':
         return (
-          <div className="Blog">
-            <Blog press={this.press} />
+          <div>
+            <Music />
           </div>
         );
+
+      case 'blog':
+      return (
+        <div className="Blog">
+          <Blog press={this.press} />
+        </div>
+      );
 
       case 'lg-unplugged':
         return (
