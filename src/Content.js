@@ -3,6 +3,7 @@ import Home from './Home.js';
 import Blog from './Blog.js';
 import Music from './Music.js';
 import LGUnplugged from './BlogPosts/Liam-Gallagher-Unplugged-Review.js'
+import Supersonic from './BlogPosts/Notes-On-Supersonic.js'
 import './App.css'
 
 class Content extends Component {
@@ -44,6 +45,13 @@ class Content extends Component {
             <LGUnplugged press={this.press} />
           </div>
         );
+
+        case 'supersonic':
+          return (
+            <div className="BlogPost">
+              <Supersonic press={this.press} />
+            </div>
+          );
     }
   }
 }

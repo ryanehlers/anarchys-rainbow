@@ -24,6 +24,7 @@ class App extends Component {
       <div className="App">
         <Header press={this.press} />
         <Content press={this.press} page={this.state.page} />
+        <hr />
       </div>
     );
   }

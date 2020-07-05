@@ -6,6 +6,7 @@ class LGUnplugged extends Component {
     return (
       <div>
         <p style={{textAlign: "center"}}><img width="300px" src={lg} alt="album art"/></p>
+        <h2>Review: <em>MTV Unplugged (Live At Hull City Hall)</em>, Liam Gallagher</h2>
         <p>I cried, the first time I heard a live performance of <em>Once</em>. And the second. And the third. And the fourth…</p>
         <p>It took me a long time to understand why the song made me so emotional. It’s good enough, but no one is going to pretend it’s in the same league as <em>Live Forever</em>, <em>Champagne Supernova</em>, or even <em>Stand By Me</em>. However, there’s no denying the electricity of the performances, and for the first time in over 20 years Liam’s is recognisably the voice of the genius who sang <em>Definitely Maybe</em>. While I cried I kept thinking, “He’s back. I can’t believe he’s really back.”</p>
         <p>Why does it matter so much to me that a man I’m never going to meet can sing well again? Even at their peak Oasis were a flawed band, and when someone doesn’t understand them – frankly, even when they do – it’s difficult to articulate their transcendent significance.</p>

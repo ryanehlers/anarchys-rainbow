@@ -37,6 +37,10 @@
   pointer-events: none;
 }
 
+h2, h3, li {
+  text-indent: 0;
+}
+
 button {
   background-color: #000066;
   color: white;
@@ -53,9 +57,18 @@ button:hover {
   border-color: #000066;
 }
 
+button:focus {
+  background-color: #545EA0;
+  border-color: #000066;
+}
+
 .NavButton {
   height: 50px;
   width: 100px;
+}
+
+.BlogButton {
+  width: 400px;
 }
 
 img {
