@@ -20,6 +20,7 @@ class Header extends Component {
           <ImageButton name="Home" press={this.press} />
           <Button name="Music" press={this.press} />
           <Button name="Blog" press={this.press} />
+          <ImageButton name="Twitter" press={this.press} />
         </nav>
         <hr />
       </header>
