@@ -18,13 +18,14 @@ class Content extends Component {
 
   render() {
     switch (this.props.page) {
-      default:
+      case 'home':
         return (
           <div className="Home">
             <Home />
           </div>
         );
 
+      default:
       case 'music':
         return (
           <div>

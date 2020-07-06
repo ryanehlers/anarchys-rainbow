@@ -13,7 +13,6 @@ class App extends Component {
   }
 
   press(button) {
-    console.log(button);
     this.setState({
       page: buttonToPageMap(button)
     });
