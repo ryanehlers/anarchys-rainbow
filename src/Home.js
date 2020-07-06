@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import rainbow from './rainbow.png';
 
 class Home extends Component {
   render() {
     return (
       <div>
-        <img src={logo} className="App-logo" alt="react" />
+        <img src={rainbow} className="App-logo" alt="rainbow" />
         <p>
           Anarchy's Rainbow
         </p>

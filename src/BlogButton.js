@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import './App.css'
 import lg from './BlogPosts/LG_unplugged.jpg';
 import supersonic from './BlogPosts/supersonic.jpg'
 

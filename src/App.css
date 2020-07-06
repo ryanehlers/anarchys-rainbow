@@ -51,6 +51,7 @@ button {
   border-color: #db0066;
   border-width: 3px;
   max-width: 80%;
+  vertical-align: middle;
 }
 
 button:hover {
@@ -64,7 +65,7 @@ button:focus {
 }
 
 .NavButton {
-  height: 50px;
+  height: 65px;
   width: 100px;
 }
 
@@ -81,21 +82,6 @@ p {
   font-family: Helvetica, "Trebuchet MS", Verdana, sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-link {
   color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Button from './Button.js';
+import ImageButton from './ImageButton.js';
 import './App.css'
 
 class Header extends Component {
@@ -16,6 +17,7 @@ class Header extends Component {
     return (
       <header className="Header">
         <nav className="HeaderButtons">
+          <ImageButton name="Home" press={this.press} />
           <Button name="Music" press={this.press} />
           <Button name="Blog" press={this.press} />
         </nav>
