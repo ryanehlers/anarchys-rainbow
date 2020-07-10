@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Button from './Button.js';
 import ImageButton from './ImageButton.js';
 import './App.css'
+import LinkButton from './LinkButton.js';
 
 class Header extends Component {
   constructor(props) {
@@ -20,8 +21,8 @@ class Header extends Component {
           <ImageButton name="Home" press={this.press} />
           <Button name="Music" press={this.press} />
           <Button name="Blog" press={this.press} />
-          <ImageButton name="Twitter" press={this.press} />
-          <ImageButton name="Instagram" press={this.press} />
+          <LinkButton name="Twitter" press={this.press} />
+          <LinkButton name="Instagram" press={this.press} />
         </nav>
         <hr />
       </header>

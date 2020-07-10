@@ -16,16 +16,14 @@ class ImageButton extends Component {
   render() {
     return (
       <span>
-        <a href={nameToHrefMap(this.props.name)} target="_blank" rel="noopener noreferrer">
-          <button>
-            <img 
-              style={{height: "20px", width: "30px", marginBottom: "15px"}}
-              src={nameToImageMap(this.props.name)}
-              alt={this.props.name}
-              onClick={this.press}
-            />
-          </button>
-        </a>
+        <button>
+          <img 
+            style={nameToStyleMap(this.props.name)}
+            src={nameToImageMap(this.props.name)}
+            alt={this.props.name}
+            onClick={this.press}
+          />
+        </button>
       </span>
     );
   }
@@ -45,17 +43,13 @@ function nameToImageMap(name) {
   }
 }
 
-function nameToHrefMap(name) {
+function nameToStyleMap(name) {
   switch (name) {
     default:
-    case "Home":
-      return "http://www.anarchysrainbow.com";
+      return {height: "20px", width: "32px", marginBottom: "15px"};
     
-    case "Twitter":
-      return "https://www.twitter.com/RyanEhlers5";
-
-      case "Instagram":
-        return "https://www.instagram.com/anarchysrainbow";
+    case "Home":
+      return {height: "20px", width: "32px", marginBottom: "15px"};
   }
 }
 
