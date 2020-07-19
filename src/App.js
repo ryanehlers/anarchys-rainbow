@@ -25,7 +25,7 @@ class App extends Component {
         <Header press={this.press} />
         <Content press={this.press} page={this.state.page} />
         <hr />
-        <h2>Join the mailing list</h2>
+        <h3>Join the mailing list for Anarchy's Rainbow</h3>
         <Subscribe />
       </div>
     );
