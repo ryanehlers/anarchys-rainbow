@@ -3,7 +3,7 @@ import { render } from '@testing-library/react';
 import App from './App';
 
 test('renders Anarchys Rainbow text', () => {
-  const { getByText } = render(<App />);
-  const linkElement = getByText(/Music/i);
+  const { getAllByText } = render(<App />);
+  const linkElement = getAllByText(/Music/i)[0];
   expect(linkElement).toBeInTheDocument();
 });

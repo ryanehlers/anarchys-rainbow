@@ -34,11 +34,16 @@ class Content extends Component {
         );
 
       case 'blog':
-      return (
-        <div className="Blog">
-          <Blog press={this.press} />
-        </div>
-      );
+        return (
+          <div className="Blog">
+            <Blog press={this.press} />
+          </div>
+        );
+
+      case 'subscribe':
+        return (
+          <div className="Subscribe" />
+        );
 
       case 'lg-unplugged':
         return (

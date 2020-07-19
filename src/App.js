@@ -4,6 +4,7 @@ import Content from './Content.js';
 import getParameterByName from './getParameterByName.js';
 import buttonToPageMap from './buttonToPageMap.js';
 import './App.css';
+import Subscribe from './Subscribe.js';
 
 class App extends Component {
   constructor(props) {
@@ -24,6 +25,8 @@ class App extends Component {
         <Header press={this.press} />
         <Content press={this.press} page={this.state.page} />
         <hr />
+        <h2>Join the mailing list</h2>
+        <Subscribe />
       </div>
     );
   }

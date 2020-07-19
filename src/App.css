@@ -39,6 +39,7 @@
 
 h2, h3, li {
   text-indent: 0;
+  color: white;
 }
 
 button {
@@ -66,7 +67,7 @@ button:focus {
 
 .NavButton {
   height: 65px;
-  width: 100px;
+  width: 110px;
 }
 
 .BlogButton {

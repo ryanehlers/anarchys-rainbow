@@ -16,7 +16,7 @@ class ImageButton extends Component {
   render() {
     return (
       <span>
-        <button>
+        <button className="ImageButton">
           <img 
             style={nameToStyleMap(this.props.name)}
             src={nameToImageMap(this.props.name)}
