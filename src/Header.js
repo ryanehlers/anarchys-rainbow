@@ -22,6 +22,7 @@ class Header extends Component {
           <Button name="Music" press={this.press} />
           <Button name="Blog" press={this.press} />
           <Button name="Subscribe" press={this.press} />
+          <LinkButton name="YouTube" press={this.press} />
           <LinkButton name="Twitter" press={this.press} />
           <LinkButton name="Instagram" press={this.press} />
         </nav>

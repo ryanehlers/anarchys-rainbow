@@ -28,6 +28,9 @@ function nameToHrefMap(name) {
     case "Home":
       return "http://www.anarchysrainbow.com";
     
+    case "YouTube":
+      return "https://www.youtube.com/channel/UCa2W7R3OLaUSbiRddPd2jyQ";
+
     case "Twitter":
       return "https://www.twitter.com/RyanEhlers5";
 

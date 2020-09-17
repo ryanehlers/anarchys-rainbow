@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import rainbow from './rainbow.png';
+import youtube from './youtube.png';
 import twitter from './twitter.png';
 import instagram from './instagram.png'
 
@@ -35,6 +36,9 @@ function nameToImageMap(name) {
     case "Home":
       return rainbow;
     
+    case "YouTube":
+      return youtube;
+
     case "Twitter":
       return twitter;
 
