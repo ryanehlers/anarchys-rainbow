@@ -32,7 +32,7 @@ function nameToHrefMap(name) {
       return "https://www.youtube.com/channel/UCa2W7R3OLaUSbiRddPd2jyQ";
 
     case "Twitter":
-      return "https://www.twitter.com/RyanEhlers5";
+      return "https://www.twitter.com/anarchysrainbow";
 
       case "Instagram":
         return "https://www.instagram.com/anarchysrainbow";
